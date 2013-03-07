@@ -1,20 +1,6 @@
-To build 'iopp':
+To build 'iotop':
 
-    cmake CMakeLists.txt
     make
 
 -----
 
-To install 'iopp':
-
-    make install DESTDIR=/usr
-
-'iopp' is installed into '/usr/bin'.
-
------
-
-To uninstall 'iopp', run the following command from the source directory:
-
-    xargs rm < install_manifest.txt
-
-The file 'install_manifest.txt' will be created after running 'make install'.
